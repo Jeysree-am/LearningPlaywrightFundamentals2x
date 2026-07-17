@@ -10,6 +10,7 @@ async function saveSession()
     await page.fill('#login-password', 'Wingify@4321');
     await page.waitForTimeout(3000);
     await page.click('#js-login-btn');
+    
     await page.waitForURL(/#\/(dashboard|home)/,{timeout:15000});
     await page.waitForTimeout(3000);
      await context.storageState({ path: "./user-session.json" });

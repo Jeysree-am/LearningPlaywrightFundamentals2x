@@ -8,6 +8,9 @@ A Playwright test automation project covering browser automation fundamentals.
   - `01_Basics/` — Basic Playwright test examples
   - `04_Session_Storage/` — Session storage & VWO login tests
   - `05_Allure_Reporting/` — VWO dashboard tests with `test.step()` & screenshot attachments
+  - `06_Multiple_Elements/` — Handling multiple elements & direct locator strategies
+  - `07_WebTable_Element/` — Dynamic XPath & web table element handling
+  - `17_Task/` — Web table interactions & login URL verification tasks
 - `utils/` — Custom TTA reporter (`CustomReporter.ts`)
 - `playwright.config.ts` — Playwright configuration (custom reporter enabled)
 
