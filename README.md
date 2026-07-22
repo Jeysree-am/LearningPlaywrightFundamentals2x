@@ -10,6 +10,7 @@ A Playwright test automation project covering browser automation fundamentals.
   - `05_Allure_Reporting/` — VWO dashboard tests with `test.step()` & screenshot attachments
   - `06_Multiple_Elements/` — Handling multiple elements & direct locator strategies
   - `07_WebTable_Element/` — Dynamic XPath & web table element handling
+  - `08_Web_Select_Frames_Iframe/` — Select dropdowns, frames & iframe handling
   - `17_Task/` — Web table interactions & login URL verification tasks
 - `utils/` — Custom TTA reporter (`CustomReporter.ts`)
 - `playwright.config.ts` — Playwright configuration (custom reporter enabled)
