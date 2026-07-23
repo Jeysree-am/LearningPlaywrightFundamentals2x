@@ -11,7 +11,12 @@ A Playwright test automation project covering browser automation fundamentals.
   - `06_Multiple_Elements/` — Handling multiple elements & direct locator strategies
   - `07_WebTable_Element/` — Dynamic XPath & web table element handling
   - `08_Web_Select_Frames_Iframe/` — Select dropdowns, frames & iframe handling
-  - `17_Task/` — Web table interactions & login URL verification tasks
+  - `17_Task/` — Web table interactions, login URL verification & hover menu tasks
+    - `Login_Verify_Url.spec.ts` — Login URL parameter validation
+    - `WebTable_Element.spec.ts` — HR web table row iteration & delete action
+    - `WebTable_Pagination.spec.ts` — Paginated webtable: find row across pages
+    - `webTable_element_static.spec.ts` — Static webtable: filter row by text, read cell
+    - `22_Hover_menu.spec.ts` — Hover to reveal submenu, click child, verify output
 - `utils/` — Custom TTA reporter (`CustomReporter.ts`)
 - `playwright.config.ts` — Playwright configuration (custom reporter enabled)
 
